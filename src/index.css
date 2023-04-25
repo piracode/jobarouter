@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
   --primary: #bc4123;
@@ -27,21 +27,38 @@ button {
 }
 
 /* navbar */
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+header nav h1 {
+  margin-right: auto;
+  /* what this does above : when this is a flex item it will put it way on the left, and then put the other things on the left with hustify content end */
+  border-bottom: 3px solid var(--primary);
+}
+
+header nav a {
+  text-decoration: auto;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+header nav a.active {
+  background: var(--primary);
+}
 
 /* page content */
 
-
 /* help layout */
-
 
 /* faq */
 
-
 /* careers list */
 
-
 /* careers details */
-
 
 /* breadcrumbs */
